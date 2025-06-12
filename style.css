@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Weather-Background.jpg);
+}
+
+.sunnyContainer {
+    height: 100vh;
+}
+
+img.imgLogo {
+    width: 36px;
+    top: -12px;
+    left: 0px;
+}
+
+h1.textLogo {
+    z-index: 2;
+    position: relative;
+}
+
+.mobileView {
+    display: none;
+}
+
+.searchSection {
+    display: flex;
+}
+
+.active {
+    border-bottom: 3px solid white;
+}
+
+.section {
+    background: #dfedfa78;
+    border-radius: 24px;
+}
+
+img#sunnyWeather {
+    width: 20%;
+}
+
+img.imgCard {
+    width: 50%;
+}
+
+.thumbCard,
+.carding {
+    border: 1px solid black;
+}
+
+.thumbCard,
+.carding {
+    background: #C1E1FE;
+    height: min-content;
+}
+
+/* #card-container {
+    height: 73vh;
+    overflow-y: scroll;
+} */
+
+h1#days {
+    font-size: 14px !important;
+}
+
+.contentNilai2 {
+    flex-direction: column;
+}
+
+.contentNilai2 small {
+    font-size: 14px;
+}
+
+.contentNilai2 h2,
+.contentCard h3 {
+    font-size: 12px !important;
+    /* text-align: end; */
+}
+
+.headCard {
+    flex-direction: column;
+}
+
+/* .navbar {
+    background: #C1E1FE;
+} */
+
+h2.nilai1,
+h2.nilai2,
+h2.day {
+    font-size: 12px !important;
+}
+
+/* .container {
+    background: #C1E1FE;
+} */
+
+/* @media (max-width: 1024px) {
+
+    /* .mobileView {
+                display: flex;
+            }
+
+            .navbarSection,
+            .searchSection {
+                display: none;
+            }
+
+            img.imgLogo {
+                /* width: 36px; */
+    /* top: -2px;
+                left: 0px;
+            }
+
+            .thumbCard {
+                display: flex;
+                flex-direction: column;
+            } */
+    /* h1.textLogo {
+        font-size: 2rem;
+    }
+
+    #cards {
+        flex-direction: row !important;
+        gap: 10px !important;
+        width: 245px !important;
+    }
+
+    img.imgCard {
+        width: 76px;
+    }
+
+    img.imgLogo {
+        left: 0px;
+    }
+
+    .thumbDays {
+        gap: 1.25rem !important;
+    }
+} */
+
+/* @media screen and (max-width: 767px) { */
+    /* .mobileView {
+        display: flex;
+    }
+
+    .navbarSection,
+    .searchSection {
+        display: none;
+    }
+
+    img.imgLogo {
+        width: 25px;
+        top: -11px;
+        left: 0px;
+    }
+
+    .thumbCard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cards {
+        width: 100% !important;
+    }
+
+    .mobileView i {
+        font-size: 2rem !important;
+    } */
+
+    /* .thumbnailContent {
+        width: 100% !important;
+    } */
+    /* .section {
+        flex-direction: column;
+        top: 65px !important;
+        position: relative;
+        height: 100vh;
+    }
+
+    #card-container {
+        height: 100%;
+
+        /* overflow: none; */
+    /* }
+
+    h1.textLogo {
+        font-size: 1.3rem;
+    }
+
+    .navbar {
+        position: fixed;
+        z-index: 999;
+    }
+
+    .container {
+        height: 110vh;
+    }
+
+    .footerSection {
+        position: sticky;
+        height: 100%;
+    }
+} */
+
+/* @media (max-width: 426px) {
+    .section {
+        flex-direction: column;
+        position: relative;
+        top: 65px;
+        justify-content: normal !important;
+    }
+
+    .thumbnailContent {
+        width: 100% !important;
+    }
+
+    #card-container {
+        height: 100%;
+        overflow: visible;
+    }
+
+    .navbar {
+        position: fixed;
+        z-index: 999;
+    }
+    .footerSection {
+    position: fixed;
+    width: 100%;
+}
+} */
